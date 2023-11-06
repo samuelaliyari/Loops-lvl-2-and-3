@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+body section {
+  text-align: center;
+  height: 20vh;
+}
+body section h2 {
+  margin-block: 1rem;
+}
+body section p {
+  color: yellowgreen;
+  font-size: 2rem;
+  margin-block: 1rem;
+}
+body section:nth-of-type(2) {
+  padding: 3rem;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=style.css.map */
