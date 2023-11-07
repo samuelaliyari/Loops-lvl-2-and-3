@@ -51,7 +51,7 @@ const loopIt2 = () => {
     if (num % 2 !== 0){
         for (let i = 1; i <= num; i++) {
             if (i % 2 === 0) {
-                result += "O"
+                result += "0"
             }
             else {
                 result += "o"
